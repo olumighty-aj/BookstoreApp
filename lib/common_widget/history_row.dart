@@ -41,7 +41,7 @@ class HistoryRow extends StatelessWidget {
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: TColor.text,
-                    fontSize: 17,
+                    fontSize: 16,
                     fontWeight: FontWeight.w700),
               ),
               const SizedBox(
@@ -53,7 +53,7 @@ class HistoryRow extends StatelessWidget {
                 textAlign: TextAlign.left,
                 style: TextStyle(
                   color: TColor.subTitle,
-                  fontSize: 13,
+                  fontSize: 12,
                 ),
               ),
               const SizedBox(
@@ -125,7 +125,7 @@ class HistoryRow extends StatelessWidget {
                           backgroundColor: Colors.transparent,
                           foregroundColor: TColor.text,
                           shadowColor: Colors.transparent),
-                      child:  Text('Add to wishlist', style: TextStyle( color: TColor.text ,fontSize: 12) ,),
+                      child:  Text('Add to wishlist', style: TextStyle( color: TColor.text ,fontSize: 11.5) ,),
                     ),
                   ))
               ],)

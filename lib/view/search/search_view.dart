@@ -217,7 +217,7 @@ class _SearchViewState extends State<SearchView> {
                               color: selectTag == index
                                   ? TColor.text
                                   : TColor.subTitle,
-                              fontSize: 22,
+                              fontSize: 21,
                               fontWeight: FontWeight.w700),
                         ),
                       ),
