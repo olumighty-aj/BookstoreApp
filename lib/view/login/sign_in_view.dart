@@ -1,6 +1,6 @@
 import 'package:book_grocer/common/color_extenstion.dart';
-import 'package:book_grocer/view/home/home_view.dart';
 import 'package:book_grocer/view/login/forgot_password_view.dart';
+import 'package:book_grocer/view/main_tab/main_tab_view.dart';
 import 'package:flutter/material.dart';
 
 import '../../common_widget/round_button.dart';
@@ -117,7 +117,7 @@ class _SignInViewState extends State<SignInView> {
               RoundLineButton(
                 title: "Sign In",
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: ((context) => const HomeView())));
+                  Navigator.push(context, MaterialPageRoute(builder: ((context) => const MainTabView())));
                 },
               )
             ],
